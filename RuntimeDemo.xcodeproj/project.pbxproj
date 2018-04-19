@@ -15,6 +15,11 @@
 		5E8968DC2085A60800C86B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8968DB2085A60800C86B21 /* main.m */; };
 		5E8968E62085A60900C86B21 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8968E52085A60900C86B21 /* RuntimeDemoTests.m */; };
 		5E8968F12085A60900C86B21 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8968F02085A60900C86B21 /* RuntimeDemoUITests.m */; };
+		5E8969002085A63000C86B21 /* RuntimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8968FF2085A63000C86B21 /* RuntimeTools.m */; };
+		5E8969032085C54B00C86B21 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8969022085C54B00C86B21 /* Person.m */; };
+		5E8969062085F42D00C86B21 /* UIImage+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8969052085F42D00C86B21 /* UIImage+Test.m */; };
+		5EC11D6B2087395E00CAAE2E /* NSObject+LuTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC11D6A2087395E00CAAE2E /* NSObject+LuTranslate.m */; };
+		5EC11D6E20883CCA00CAAE2E /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC11D6D20883CCA00CAAE2E /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		5E8968EC2085A60900C86B21 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8968F02085A60900C86B21 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		5E8968F22085A60900C86B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8968FE2085A63000C86B21 /* RuntimeTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTools.h; sourceTree = "<group>"; };
+		5E8968FF2085A63000C86B21 /* RuntimeTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTools.m; sourceTree = "<group>"; };
+		5E8969012085C54B00C86B21 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5E8969022085C54B00C86B21 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5E8969042085F42D00C86B21 /* UIImage+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Test.h"; sourceTree = "<group>"; };
+		5E8969052085F42D00C86B21 /* UIImage+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Test.m"; sourceTree = "<group>"; };
+		5EC11D692087395E00CAAE2E /* NSObject+LuTranslate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LuTranslate.h"; sourceTree = "<group>"; };
+		5EC11D6A2087395E00CAAE2E /* NSObject+LuTranslate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LuTranslate.m"; sourceTree = "<group>"; };
+		5EC11D6C20883CCA00CAAE2E /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		5EC11D6D20883CCA00CAAE2E /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		5EC11D7020888F6200CAAE2E /* WZLSerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLSerializeKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		5E8968CB2085A60800C86B21 /* RuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5EC11D6F20888F6200CAAE2E /* WZLSerializeKit */,
 				5E8968CC2085A60800C86B21 /* AppDelegate.h */,
 				5E8968CD2085A60800C86B21 /* AppDelegate.m */,
 				5E8968CF2085A60800C86B21 /* ViewController.h */,
@@ -110,6 +127,16 @@
 				5E8968D72085A60800C86B21 /* LaunchScreen.storyboard */,
 				5E8968DA2085A60800C86B21 /* Info.plist */,
 				5E8968DB2085A60800C86B21 /* main.m */,
+				5E8968FE2085A63000C86B21 /* RuntimeTools.h */,
+				5E8968FF2085A63000C86B21 /* RuntimeTools.m */,
+				5E8969012085C54B00C86B21 /* Person.h */,
+				5E8969022085C54B00C86B21 /* Person.m */,
+				5E8969042085F42D00C86B21 /* UIImage+Test.h */,
+				5E8969052085F42D00C86B21 /* UIImage+Test.m */,
+				5EC11D692087395E00CAAE2E /* NSObject+LuTranslate.h */,
+				5EC11D6A2087395E00CAAE2E /* NSObject+LuTranslate.m */,
+				5EC11D6C20883CCA00CAAE2E /* TestModel.h */,
+				5EC11D6D20883CCA00CAAE2E /* TestModel.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -130,6 +157,14 @@
 				5E8968F22085A60900C86B21 /* Info.plist */,
 			);
 			path = RuntimeDemoUITests;
+			sourceTree = "<group>";
+		};
+		5EC11D6F20888F6200CAAE2E /* WZLSerializeKit */ = {
+			isa = PBXGroup;
+			children = (
+				5EC11D7020888F6200CAAE2E /* WZLSerializeKit.h */,
+			);
+			path = WZLSerializeKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +302,12 @@
 			files = (
 				5E8968D12085A60800C86B21 /* ViewController.m in Sources */,
 				5E8968DC2085A60800C86B21 /* main.m in Sources */,
+				5E8969032085C54B00C86B21 /* Person.m in Sources */,
+				5E8969062085F42D00C86B21 /* UIImage+Test.m in Sources */,
+				5E8969002085A63000C86B21 /* RuntimeTools.m in Sources */,
 				5E8968CE2085A60800C86B21 /* AppDelegate.m in Sources */,
+				5EC11D6B2087395E00CAAE2E /* NSObject+LuTranslate.m in Sources */,
+				5EC11D6E20883CCA00CAAE2E /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
